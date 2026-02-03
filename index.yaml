@@ -3,6 +3,41 @@ entries:
   jaeger:
   - apiVersion: v2
     appVersion: 2.14.1
+    created: "2026-02-03T12:55:37.607279908Z"
+    dependencies:
+    - name: common
+      repository: https://charts.bitnami.com/bitnami
+      version: 2.x.x
+    description: A Jaeger Helm chart for Kubernetes
+    digest: 7430406176acaa63d3ac3c0ad6fc845eeb44e92b16d1582a9765706c3c3ad0dd
+    home: https://jaegertracing.io
+    icon: https://www.jaegertracing.io/img/jaeger-icon-reverse-color.svg
+    keywords:
+    - jaeger
+    - opentracing
+    - tracing
+    - instrumentation
+    kubeVersion: '>= 1.21-0'
+    maintainers:
+    - email: ankit.mehta@appian.com
+      name: mehta-ankit
+    - email: michael.lorant@fairfaxmedia.com.au
+      name: mikelorant
+    - email: naseem@transit.app
+      name: naseemkullah
+    - email: me@pavelnikolov.net
+      name: pavelnikolov
+    - email: jkowall@kowall.net
+      name: jkowall
+    name: jaeger
+    sources:
+    - https://hub.docker.com/u/jaegertracing/
+    type: application
+    urls:
+    - https://github.com/jkowall/helm-charts-F/releases/download/jaeger-4.4.6/jaeger-4.4.6.tgz
+    version: 4.4.6
+  - apiVersion: v2
+    appVersion: 2.14.1
     created: "2026-02-01T08:57:05.916346094Z"
     dependencies:
     - name: common
@@ -8515,4 +8550,4 @@ entries:
     urls:
     - https://github.com/jaegertracing/helm-charts/releases/download/jaeger-operator-2.12.1/jaeger-operator-2.12.1.tgz
     version: 2.12.1
-generated: "2026-02-01T08:57:05.918957041Z"
+generated: "2026-02-03T12:55:37.607884726Z"
